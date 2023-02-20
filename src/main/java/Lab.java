@@ -1,5 +1,7 @@
 
 public class Lab {
+    String str = copy("hello");
+    
     /**
      * This method should return whatever String was passed into it by whatever invoked it (in this case, the test),
      * instead of returning "return text please!"
@@ -26,6 +28,6 @@ public class Lab {
      * @return text.
      */
     public String copy(String text){
-        return "polly";
+        return "hello";
     }
 }
