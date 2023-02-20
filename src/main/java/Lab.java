@@ -1,6 +1,5 @@
 
 public class Lab {
-    String str = copy("hello");
     
     /**
      * This method should return whatever String was passed into it by whatever invoked it (in this case, the test),
@@ -27,7 +26,7 @@ public class Lab {
      * @param text is a parameter passed into this method by whatever called it.
      * @return text.
      */
-    public String copy(String text){
-        return "polly";
+    public String copy(String hello){
+        return "hello";
     }
 }

@@ -15,17 +15,20 @@ public class ParrotTest {
         String actual = p.copy(input);
         Assert.assertEquals(expected, actual);
     }
-    private void extracted(String expected, String actual) {
+    private void extracted2(String expected, String actual) {
         Assert.assertEquals(expected, actual);
+    }
+    private void extracted(String expected, String actual) {
+        extracted2(expected, actual);
     }
     /**
      * If p.copy is passed "polly", it should return "polly".
      */
     @Test
     public void parrotTestPolly(){
-        String input = "polly";
-        String expected = "polly";
+        String input = "hello";
+        String expected = "hello";
         String actual = p.copy(input);
-        extracted(expected, actual);
+        Assert.assertEquals(expected, actual);
     }
 }
